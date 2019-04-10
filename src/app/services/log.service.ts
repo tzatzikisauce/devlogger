@@ -39,6 +39,7 @@ export class LogService {
     }));
   }
 
+
   setFormLog(log: Log) {
     this.logSource.next(log);
   }
